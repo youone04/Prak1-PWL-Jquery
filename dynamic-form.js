@@ -33,6 +33,7 @@ $(document).ready(function () {
                <div class="col-md-2">
                <label>Jumlah</label>
                    <input id="j" type="number" name="jumlah_produk[]" placeholder="Jumlah Produk" class="form-control">
+                   <span>Pastikan jumlah tersedia, jika tidak tombol tambah tidak akan tampil</span>
                </div>
                
                <div class="button-group">
@@ -64,6 +65,7 @@ function addForm() {
             <div class="col-md-2">
             <label>Jumlah</label>
                 <input id="j" type="number" name="jumlah_produk[]" placeholder="Jumlah Produk" class="form-control">
+                <span>Pastikan jumlah tersedia, jika tidak tombol tambah tidak akan tampil</span>
             </div>
             
             <div class="button-group">
